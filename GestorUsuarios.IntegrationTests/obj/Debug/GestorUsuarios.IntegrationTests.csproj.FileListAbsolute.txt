@@ -1,0 +1,13 @@
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.IntegrationTests\bin\Debug\GestorUsuarios.IntegrationTests.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.IntegrationTests\bin\Debug\GestorUsuarios.IntegrationTests.pdb
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.IntegrationTests\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.IntegrationTests\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.IntegrationTests\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.IntegrationTests\bin\Debug\Microsoft.Analytics.UnitTest.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.IntegrationTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.IntegrationTests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.IntegrationTests\obj\Debug\GestorUsuarios.IntegrationTests.csproj.AssemblyReference.cache
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.IntegrationTests\obj\Debug\GestorUsuarios.IntegrationTests.csproj.CoreCompileInputs.cache
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.IntegrationTests\obj\Debug\GestorUsuarios.IntegrationTests.csproj.CopyComplete
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.IntegrationTests\obj\Debug\GestorUsuarios.IntegrationTests.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.IntegrationTests\obj\Debug\GestorUsuarios.IntegrationTests.pdb

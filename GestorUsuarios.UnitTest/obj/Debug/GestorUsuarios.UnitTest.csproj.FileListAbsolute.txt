@@ -1,0 +1,13 @@
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.UnitTest\bin\Debug\GestorUsuarios.UnitTest.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.UnitTest\bin\Debug\GestorUsuarios.UnitTest.pdb
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.UnitTest\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.UnitTest\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.UnitTest\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.UnitTest\bin\Debug\Microsoft.Analytics.UnitTest.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.UnitTest\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.UnitTest\obj\Debug\GestorUsuarios.UnitTest.csproj.AssemblyReference.cache
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.UnitTest\obj\Debug\GestorUsuarios.UnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.UnitTest\obj\Debug\GestorUsuarios.UnitTest.csproj.CopyComplete
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.UnitTest\obj\Debug\GestorUsuarios.UnitTest.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestorUsuarios.UnitTest\obj\Debug\GestorUsuarios.UnitTest.pdb
