@@ -1,1 +1,1 @@
-Scaffold-DbContext "Server=LAPTOP-MPBGC744\SQLEXPRESS;Database=Gestion;Integrated Security = true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data
+Scaffold-DbContext "Server=xx\xx;Database=Gestion;Integrated Security = true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data
