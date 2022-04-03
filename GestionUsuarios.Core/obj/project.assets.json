@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj",
       "projectName": "GestorUsuarios.Core",
-      "projectPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj",
+      "projectPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj",
       "packagesPath": "C:\\Users\\Cesaruc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestionUsuarios.Core\\obj\\",
+      "outputPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestionUsuarios.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

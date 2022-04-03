@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KSy5AaWPS2Y00H109EPuBFiuz/4uZrt5lrU0TP9TmRjikxqBFSoZKU1BKDgE5HAaT4Dl0QJNO0eA+INyGFRQpA==",
+  "dgSpecHash": "eXM4eTJrJ2VXVQsY0VW5/yf9TYskrMl2GkVqDhpZhHygGeADFoE+yDwbpUCgBe4xKJwBdJ4lzhnWmteaZ1JFGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cesaruc\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Cesaruc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

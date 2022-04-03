@@ -5775,11 +5775,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj",
+      "projectUniqueName": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj",
       "projectName": "GestorUsuarios.Infraestructure",
-      "projectPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj",
+      "projectPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj",
       "packagesPath": "C:\\Users\\Cesaruc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestorUsuarios.Infraestructure\\obj\\",
+      "outputPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestorUsuarios.Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5799,8 +5799,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj": {
-              "projectPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj"
+            "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj": {
+              "projectPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K8uoaCBiGU0doBYAMI6SFIRkoRKh/Rr7DP0lV9ErZ5nDsg3ZG/HrMICeaouFey6HhiRV+8gBCN4XnATeHI5apQ==",
+  "dgSpecHash": "GSNMBi5GWK6U+gyINOyiL5ceGtc9KdEsNo7NTFbAYr6pCh3iL/xBMKZpatTEuejDqYM9J6OGxHRbQ7WfAgtmPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj",
+  "projectFilePath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

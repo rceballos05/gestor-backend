@@ -31,6 +31,7 @@ namespace GestorUsuarios.Api.Controllers
             var usuario = await usuarioRepository.GetUsuario(id);
             return Ok(usuario);
         }
+        [HttpPost]
         public async Task<IActionResult> PostUsuario(Usuario usuario)
         {
             await usuarioRepository.PostUsuario(usuario);

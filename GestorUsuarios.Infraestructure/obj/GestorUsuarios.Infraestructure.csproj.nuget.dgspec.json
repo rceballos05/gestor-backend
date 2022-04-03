@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj": {}
+    "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj": {
+    "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj",
         "projectName": "GestorUsuarios.Core",
-        "projectPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj",
+        "projectPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj",
         "packagesPath": "C:\\Users\\Cesaruc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestionUsuarios.Core\\obj\\",
+        "outputPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestionUsuarios.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj": {
+    "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj",
         "projectName": "GestorUsuarios.Infraestructure",
-        "projectPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj",
+        "projectPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestorUsuarios.Infraestructure\\GestorUsuarios.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\Cesaruc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestorUsuarios.Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestorUsuarios.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -88,8 +88,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj": {
-                "projectPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\GestorUsuarios-BackEnd\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj"
+              "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj": {
+                "projectPath": "C:\\Users\\Cesaruc\\Desktop\\prj-gestor-usuarios\\gestor-backend\\GestionUsuarios.Core\\GestorUsuarios.Core.csproj"
               }
             }
           }
