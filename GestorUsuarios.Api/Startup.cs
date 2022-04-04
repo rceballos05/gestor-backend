@@ -1,5 +1,7 @@
+using FluentValidation.AspNetCore;
 using GestorUsuarios.Core.Interfaces;
 using GestorUsuarios.Infraestructure.Data;
+using GestorUsuarios.Infraestructure.Filter;
 using GestorUsuarios.Infraestructure.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -28,6 +30,8 @@ namespace GestorUsuarios.Api
             services.AddControllers().AddNewtonsoftJson(options => 
             {
                 options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore; 
+            }).ConfigureApiBehaviorOptions(options => {
+                //options.SuppressModelStateInvalidFilter = true;
             });
             //obtener cadena de conexion a bd
             services.AddDbContext<GestionContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Gestor")));
@@ -45,6 +49,13 @@ namespace GestorUsuarios.Api
                 Description = "api gestor de tareas y usuarios"
 
             }));
+
+            services.AddMvc(options =>
+            {
+                options.Filters.Add<ValidationFilter>();
+            }).AddFluentValidation(options => {
+                options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies());            
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
