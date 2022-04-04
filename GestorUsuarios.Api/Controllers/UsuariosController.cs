@@ -1,4 +1,6 @@
-﻿using GestorUsuarios.Core.Entities;
+﻿using AutoMapper;
+using GestorUsuarios.Core.DTOs;
+using GestorUsuarios.Core.Entities;
 using GestorUsuarios.Core.Interfaces;
 using GestorUsuarios.Infraestructure.Repositories;
 using Microsoft.AspNetCore.Http;
@@ -15,9 +17,11 @@ namespace GestorUsuarios.Api.Controllers
     public class UsuariosController : ControllerBase
     {
         private readonly IUsuarioRepository usuarioRepository;
-        public UsuariosController(IUsuarioRepository _usuarioRepository)
+        private readonly IMapper mapper;
+        public UsuariosController(IUsuarioRepository _usuarioRepository, IMapper _mapper)
         {
             usuarioRepository = _usuarioRepository;
+            mapper = _mapper;
         }
         [HttpGet]
         public async Task<IActionResult> GetUsuarios()
@@ -25,7 +29,8 @@ namespace GestorUsuarios.Api.Controllers
             var usuarios = await usuarioRepository.GetUsuarios();
             if (usuarios != null)
             {
-                return Ok(usuarios);
+                var usuarioDto = mapper.Map<IEnumerable<UsuarioDto>>(usuarios);
+                return Ok(usuarioDto);
             }
             else
             {
@@ -38,7 +43,8 @@ namespace GestorUsuarios.Api.Controllers
             var usuario = await usuarioRepository.GetUsuario(id);
             if (usuario != null)
             {
-                return Ok(usuario);
+                var usuarioDto = mapper.Map<UsuarioDto>(usuario);
+                return Ok(usuarioDto);
             }
             else
             {
@@ -46,8 +52,9 @@ namespace GestorUsuarios.Api.Controllers
             }
         }
         [HttpPost]
-        public async Task<IActionResult> PostUsuario(Usuario usuario)
+        public async Task<IActionResult> PostUsuario(UsuarioDto usuarioDto)
         {
+            var usuario = mapper.Map<Usuario>(usuarioDto);
             await usuarioRepository.PostUsuario(usuario);
             return Ok();
         }
@@ -58,7 +65,8 @@ namespace GestorUsuarios.Api.Controllers
             var usuario = await usuarioRepository.ObtenerUsuarioByLogin(id);
             if(usuario != null)
             {
-                return Ok(usuario);
+                var usuarioDto = mapper.Map<UsuarioDto>(usuario);
+                return Ok(usuarioDto);
             }
             else
             {

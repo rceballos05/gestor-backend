@@ -1,4 +1,6 @@
-﻿using GestorUsuarios.Core.Interfaces;
+﻿using AutoMapper;
+using GestorUsuarios.Core.DTOs;
+using GestorUsuarios.Core.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -13,9 +15,11 @@ namespace GestorUsuarios.Api.Controllers
     public class LoginController : ControllerBase
     {
         private readonly ILoginRepository loginRepository;
-        public LoginController(ILoginRepository _loginRepository)
+        private readonly IMapper mapper;
+        public LoginController(ILoginRepository _loginRepository, IMapper _mapper)
         {
             loginRepository = _loginRepository;
+            mapper = _mapper;
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetLogin(int id)
@@ -23,7 +27,8 @@ namespace GestorUsuarios.Api.Controllers
             var login = await loginRepository.GetLogin(id);
             if (login != null)
             {
-                return Ok(login);
+                var loginDto = mapper.Map<LoginDto>(login);
+                return Ok(loginDto);
             }
             else
             {
@@ -37,7 +42,8 @@ namespace GestorUsuarios.Api.Controllers
             var login = await loginRepository.VerificarLogin(usuario, contraseña);
             if(login != null)
             {
-                return Ok(login);
+                var loginDto = mapper.Map<LoginDto>(login);
+                return Ok(loginDto);
             }
             else
             {

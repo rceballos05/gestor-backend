@@ -1,4 +1,6 @@
-﻿using GestorUsuarios.Core.Interfaces;
+﻿using AutoMapper;
+using GestorUsuarios.Core.DTOs;
+using GestorUsuarios.Core.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -13,15 +15,18 @@ namespace GestorUsuarios.Api.Controllers
     public class TareaController : ControllerBase
     {
         private readonly ITareaRepository tareaRepository;
-        public TareaController(ITareaRepository _tareaRepository)
+        private readonly IMapper mapper;
+        public TareaController(ITareaRepository _tareaRepository, IMapper _mapper)
         {
             tareaRepository = _tareaRepository;
+            mapper = _mapper;
         }
         [HttpGet]
         public async Task<IActionResult> GetTareas()
         {
             var tareas = await tareaRepository.GetTareas();
-            return Ok(tareas);
+            var tareasDto = mapper.Map<IEnumerable<TareaDto>>(tareas);
+            return Ok(tareasDto);
         }
     }
 }
