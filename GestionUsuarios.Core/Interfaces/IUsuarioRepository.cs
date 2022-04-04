@@ -11,5 +11,6 @@ namespace GestorUsuarios.Core.Interfaces
         Task<IEnumerable<Usuario>> GetUsuarios();
         Task<Usuario> GetUsuario(int id);
         Task PostUsuario(Usuario usuario);
+        Task<Usuario> ObtenerUsuarioByLogin(int id);
     }
 }

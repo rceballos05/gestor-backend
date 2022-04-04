@@ -23,19 +23,47 @@ namespace GestorUsuarios.Api.Controllers
         public async Task<IActionResult> GetUsuarios()
         {
             var usuarios = await usuarioRepository.GetUsuarios();
-            return Ok(usuarios);
+            if (usuarios != null)
+            {
+                return Ok(usuarios);
+            }
+            else
+            {
+                return NoContent();
+            }
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUsuario(int id)
         {
             var usuario = await usuarioRepository.GetUsuario(id);
-            return Ok(usuario);
+            if (usuario != null)
+            {
+                return Ok(usuario);
+            }
+            else
+            {
+                return NotFound();
+            }
         }
         [HttpPost]
         public async Task<IActionResult> PostUsuario(Usuario usuario)
         {
             await usuarioRepository.PostUsuario(usuario);
             return Ok();
+        }
+        [HttpGet]
+        [Route("obtenerUsuarioByLogin/{id}")]
+        public async Task<IActionResult> ObtenerUsuarioByLogin(int id)
+        {
+            var usuario = await usuarioRepository.ObtenerUsuarioByLogin(id);
+            if(usuario != null)
+            {
+                return Ok(usuario);
+            }
+            else
+            {
+                return NotFound();
+            }
         }
 
     }

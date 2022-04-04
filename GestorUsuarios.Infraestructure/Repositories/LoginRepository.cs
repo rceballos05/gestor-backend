@@ -23,6 +23,10 @@ namespace GestorUsuarios.Infraestructure.Repositories
             var login = await context.Logins.FirstOrDefaultAsync(l => l.Id == id);
             return login;
         }
-
+        public async Task<Login> VerificarLogin(string usuario, string contraseña)
+        {
+            var login = await context.Logins.FirstOrDefaultAsync(l => l.Usuario == usuario && l.Contraseña == contraseña);
+            return login;
+        }
     }
 }

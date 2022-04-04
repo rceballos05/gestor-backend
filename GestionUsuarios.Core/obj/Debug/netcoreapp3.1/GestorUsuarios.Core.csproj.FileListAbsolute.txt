@@ -8,3 +8,13 @@ C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestionUsuarios.
 C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestionUsuarios.Core\obj\Debug\netcoreapp3.1\GestorUsuarios.Core.csproj.CoreCompileInputs.cache
 C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestionUsuarios.Core\obj\Debug\netcoreapp3.1\GestorUsuarios.Core.dll
 C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\GestorUsuarios.Api\GestionUsuarios.Core\obj\Debug\netcoreapp3.1\GestorUsuarios.Core.pdb
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestionUsuarios.Core\bin\Debug\netcoreapp3.1\GestorUsuarios.Core.deps.json
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestionUsuarios.Core\bin\Debug\netcoreapp3.1\GestorUsuarios.Core.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestionUsuarios.Core\bin\Debug\netcoreapp3.1\GestorUsuarios.Core.pdb
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestionUsuarios.Core\obj\Debug\netcoreapp3.1\GestorUsuarios.Core.csproj.AssemblyReference.cache
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestionUsuarios.Core\obj\Debug\netcoreapp3.1\GestorUsuarios.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestionUsuarios.Core\obj\Debug\netcoreapp3.1\GestorUsuarios.Core.AssemblyInfoInputs.cache
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestionUsuarios.Core\obj\Debug\netcoreapp3.1\GestorUsuarios.Core.AssemblyInfo.cs
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestionUsuarios.Core\obj\Debug\netcoreapp3.1\GestorUsuarios.Core.csproj.CoreCompileInputs.cache
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestionUsuarios.Core\obj\Debug\netcoreapp3.1\GestorUsuarios.Core.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestionUsuarios.Core\obj\Debug\netcoreapp3.1\GestorUsuarios.Core.pdb

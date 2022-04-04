@@ -32,5 +32,10 @@ namespace GestorUsuarios.Infraestructure.Repositories
             context.Usuarios.Add(usuario);
             await context.SaveChangesAsync();
         }
+        public async Task<Usuario> ObtenerUsuarioByLogin(int id)
+        {
+            var login = await context.Usuarios.FirstOrDefaultAsync(u => u.IdLogin == id);
+            return login;
+        }
     }
 }

@@ -9,5 +9,6 @@ namespace GestorUsuarios.Core.Interfaces
     public interface ILoginRepository
     {
         Task<Login> GetLogin(int id);
+        Task<Login> VerificarLogin(string usuario, string contraseña);
     }
 }

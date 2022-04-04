@@ -21,7 +21,28 @@ namespace GestorUsuarios.Api.Controllers
         public async Task<IActionResult> GetLogin(int id)
         {
             var login = await loginRepository.GetLogin(id);
-            return Ok(login);
+            if (login != null)
+            {
+                return Ok(login);
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
+        [HttpGet]
+        [Route("verificarLogin/{usuario}/{contraseña}")]
+        public async Task<IActionResult> VerificarLogin(string usuario, string contraseña)
+        {
+            var login = await loginRepository.VerificarLogin(usuario, contraseña);
+            if(login != null)
+            {
+                return Ok(login);
+            }
+            else
+            {
+                return NotFound();
+            }
         }
     }
 }
