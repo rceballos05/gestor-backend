@@ -10,5 +10,8 @@ namespace GestorUsuarios.Core.Interfaces
     {
         Task<Login> GetLogin(int id);
         Task<Login> VerificarLogin(string usuario, string contraseña);
+        Task InsertLogin(Login _login);
+        Task<bool> UpdateLogin(Login _login);
+        Task<bool> DeleteLogin(int id);
     }
 }

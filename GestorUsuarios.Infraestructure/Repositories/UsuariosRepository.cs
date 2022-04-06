@@ -37,5 +37,24 @@ namespace GestorUsuarios.Infraestructure.Repositories
             var login = await context.Usuarios.FirstOrDefaultAsync(u => u.IdLogin == id);
             return login;
         }
+        public async Task<bool> UpdateUsuario(Usuario _usuario)
+        {
+            var usuario = await GetUsuario(_usuario.Id);
+            usuario.Nombre = _usuario.Nombre;
+            usuario.Apellido = _usuario.Apellido;
+            usuario.FechaNacimiento = _usuario.FechaNacimiento;
+            usuario.Fono = _usuario.Fono;
+            usuario.Correo = _usuario.Correo;
+            usuario.Cargo = _usuario.Cargo;
+            var response = await context.SaveChangesAsync();
+            return response > 0;
+        }
+        public async Task<bool> DeleteUsuario(int id)
+        {
+            var usuario = await GetUsuario(id);
+            context.Remove(usuario);
+            var response = await context.SaveChangesAsync();
+            return response > 0;
+        }
     }
 }

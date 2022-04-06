@@ -28,5 +28,25 @@ namespace GestorUsuarios.Infraestructure.Repositories
             var login = await context.Logins.FirstOrDefaultAsync(l => l.Usuario == usuario && l.Contraseña == contraseña);
             return login;
         }
+        public async Task InsertLogin(Login _login)
+        {
+            context.Add(_login);
+            await context.SaveChangesAsync();
+        }
+        public async Task<bool> UpdateLogin(Login _login)
+        {
+            var login = await GetLogin(_login.Id);
+            login.Usuario = _login.Usuario;
+            login.Contraseña = _login.Contraseña;
+            var rows = await context.SaveChangesAsync();
+            return rows > 0;
+        }
+        public async Task<bool> DeleteLogin(int id)
+        {
+            var login = await GetLogin(id);
+            context.Logins.Remove(login);
+            var rows = await context.SaveChangesAsync();
+            return rows > 0;
+        }
     }
 }

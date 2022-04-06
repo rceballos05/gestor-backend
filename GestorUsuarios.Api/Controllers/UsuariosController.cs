@@ -24,6 +24,7 @@ namespace GestorUsuarios.Api.Controllers
             mapper = _mapper;
         }
         [HttpGet]
+        [Route("obtenerUsuarios")]
         public async Task<IActionResult> GetUsuarios()
         {
             var usuarios = await usuarioRepository.GetUsuarios();
@@ -37,7 +38,8 @@ namespace GestorUsuarios.Api.Controllers
                 return NoContent();
             }
         }
-        [HttpGet("{id}")]
+        [HttpGet]
+        [Route("obtenerUsuarioById/{id}")]
         public async Task<IActionResult> GetUsuario(int id)
         {
             var usuario = await usuarioRepository.GetUsuario(id);
@@ -51,19 +53,13 @@ namespace GestorUsuarios.Api.Controllers
                 return NotFound();
             }
         }
-        [HttpPost]
-        public async Task<IActionResult> PostUsuario(UsuarioDto usuarioDto)
-        {
-            var usuario = mapper.Map<Usuario>(usuarioDto);
-            await usuarioRepository.PostUsuario(usuario);
-            return Ok();
-        }
+
         [HttpGet]
         [Route("obtenerUsuarioByLogin/{id}")]
         public async Task<IActionResult> ObtenerUsuarioByLogin(int id)
         {
             var usuario = await usuarioRepository.ObtenerUsuarioByLogin(id);
-            if(usuario != null)
+            if (usuario != null)
             {
                 var usuarioDto = mapper.Map<UsuarioDto>(usuario);
                 return Ok(usuarioDto);
@@ -72,6 +68,35 @@ namespace GestorUsuarios.Api.Controllers
             {
                 return NotFound();
             }
+        }
+        [HttpPost]
+        [Route("insertUsuario")]
+        public async Task<IActionResult> PostUsuario(UsuarioDto usuarioDto)
+        {
+            var usuario = mapper.Map<Usuario>(usuarioDto);
+            await usuarioRepository.PostUsuario(usuario);
+            return Ok();
+        }
+        [HttpPut]
+        [Route("updateUsuario")]
+        public async Task<IActionResult> UpdateUsuario(UsuarioDto usuarioDto)
+        {
+            var usuario = mapper.Map<Usuario>(usuarioDto);
+            var response = await usuarioRepository.UpdateUsuario(usuario);
+            if (response)
+                return Ok();
+            else
+                return BadRequest();
+        } 
+        [HttpDelete]
+        [Route("deleteUsuario/{id}")]
+        public async Task<IActionResult> DeleteUsuario(int id)
+        {
+            var response = await usuarioRepository.DeleteUsuario(id);
+            if (response)
+                return Ok();
+            else
+                return BadRequest();
         }
 
     }

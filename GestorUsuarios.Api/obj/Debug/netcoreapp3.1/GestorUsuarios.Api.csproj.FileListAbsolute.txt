@@ -145,3 +145,8 @@ C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestorUsuarios.Api\b
 C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestorUsuarios.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestorUsuarios.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestorUsuarios.Api\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestorUsuarios.Api\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestorUsuarios.Api\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestorUsuarios.Api\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestorUsuarios.Api\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Cesaruc\Desktop\prj-gestor-usuarios\gestor-backend\GestorUsuarios.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll

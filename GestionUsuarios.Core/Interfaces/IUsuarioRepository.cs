@@ -12,5 +12,7 @@ namespace GestorUsuarios.Core.Interfaces
         Task<Usuario> GetUsuario(int id);
         Task PostUsuario(Usuario usuario);
         Task<Usuario> ObtenerUsuarioByLogin(int id);
+        Task<bool> UpdateUsuario(Usuario _usuario);
+        Task<bool> DeleteUsuario(int id);
     }
 }

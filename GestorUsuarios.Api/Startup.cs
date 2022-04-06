@@ -49,6 +49,10 @@ namespace GestorUsuarios.Api
                 Description = "api gestor de tareas y usuarios"
 
             }));
+            services.AddCors(options => options.AddPolicy("AllowWebApp",
+                                                                        builder => builder.AllowAnyOrigin()
+                                                                                            .AllowAnyMethod()
+                                                                                            .AllowAnyHeader()));
 
             services.AddMvc(options =>
             {
@@ -72,7 +76,7 @@ namespace GestorUsuarios.Api
                 sw.RoutePrefix = string.Empty;
             });
             app.UseHttpsRedirection();
-
+            app.UseCors("AllowWebApp");
             app.UseRouting();
 
             app.UseAuthorization();
